@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+             <!-- Internet Explorer comatible    -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+             <!--    First Mobile meta   -->
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Nav Bar</title>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="stylesheet" href="css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="css/one.css" type="text/css" />
+        <link rel="stylesheet" href="css/media.css" type="text/css" />
+        <link rel="stylesheet" href="css/defult-theme.css" type="text/css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700">
+    </head>
+    <body>
+        <!-- Start Tool Box Section -->
+        <section class="option-box">
+            <div class="color-option">
+                <h4>Color Option</h4>
+                <ul class="list-unstyled">
+                    <li data-value="css/defult-theme.css"></li>
+                    <li data-value="css/parple-theme.css"></li>
+                    <li data-value="css/blue-theme.css"></li>
+                    <li data-value="css/green-theme.css"></li>
+                    <li data-value="css/bnfsgy-theme.css"></li>
+                </ul>
+            </div>
+            <i class="fa fa-gear fa-2x gear-check"></i>
+        </section>
+        <!-- End Tool Box Section -->
+        <!-- start our nav -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container"> <!-- start container -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#ournavbar">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Bauomy</a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="ournavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">about</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Department<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Information System</a></li>
+                                <li><a href="#">Information Technology</a></li>
+                                <li><a href="#">Computer Science</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Multi Media</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Map</a></li>
+                    </ul>
+                    
+                </div>
+                
+            </div><!-- End our container -->
+        </nav> <!-- End nav -->
+        <!-- Start Carousel -->
+        <div id="myslide" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myslide" data-slide-to="0" class="active"></li>
+            <li data-target="#myslide" data-slide-to="1"></li>
+            <li data-target="#myslide" data-slide-to="2"></li>
+            <li data-target="#myslide" data-slide-to="3"></li>
+          </ol>
+        
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="image/bac1.jpg" alt="Pic 1">
+              <div class="carousel-caption">
+                Hello This is Picture 1
+              </div>
+            </div>
+            <div class="item">
+              <img src="image/0.jpg" alt="Pic 1">
+              <div class="carousel-caption">
+                <h1>Hello This is Picture 1</h1>
+                <p class="lead">The carousel component is generally not compliant with accessibility standards
+                . If you need to be compliant, please consider other options for presenting your content.</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="image/1.jpg" alt="Pic 2">
+              <div class="carousel-caption">
+               <h1>Hello This is Picture 2</h1>
+                <p class="lead">The carousel component is generally not compliant with accessibility standards
+                . If you need to be compliant, please consider other options for presenting your content.</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="image/contact1.jpg" alt="Pic 3">
+              <div class="carousel-caption">
+                <h1>Hello This is Picture 3</h1>
+                <p class="lead">The carousel component is generally not compliant with accessibility standards
+                . If you need to be compliant, please consider other options for presenting your content.</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="image/3.jpg" alt="Pic 4">
+              <div class="carousel-caption">
+                <h1>Hello This is Picture 4</h1>
+                <p class="lead">The carousel component is generally not compliant with accessibility standards
+                . If you need to be compliant, please consider other options for presenting your content.</p>
+              </div>
+            </div>
+            
+          </div>
+        
+          <!-- Controls -->
+          <a class="left carousel-control" href="#myslide" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myslide" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        
+        <!-- End Carousel -->
+        <!-- Start Section About -->
+        <section class="about text-center">
+           <div class="container"> 
+            <h1>Meet Our New Template <span>Bauomy</span></h1>
+            <p class="lead">Hello Let Me Interduce Our New Template Bauomy .Created With All Love With <strong>Bootstrap </strong>3.2.2</p>
+           </div>
+        </section>
+         <!-- End Section About -->
+         
+        <!-- Start Section Features -->
+        <section class="features text-center">
+         <div class="container">
+            <h1>Our Features</h1>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="feat">
+                        <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                        <h3>Responsive 100%</h3>
+                        <p>Modern versions of assistive technologies will announce CSS generated content, as well as specific Unicode characters</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="feat">
+                        <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+                        <h3>Responsive 100%</h3>
+                        <p>Modern versions of assistive technologies will announce CSS generated content, as well as specific Unicode characters</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="feat">
+                        <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                        <h3>Responsive 100%</h3>
+                        <p>Modern versions of assistive technologies will announce CSS generated content, as well as specific Unicode characters</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="feat">
+                        <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+                        <h3>Responsive 100%</h3>
+                        <p>Modern versions of assistive technologies will announce CSS generated content, as well as specific Unicode characters</p>
+                    </div>
+                </div>
+            </div>
+         </div>
+        </section>
+
+        <!-- End Section Features -->
+        
+        <!-- Start Testimonials Section -->
+        <section class="testimonials text-center">
+            <div class="container">
+            <h1>What Our Client Say?</h1>
+            <!-- Start Testimonials Carousel -->
+        <div id="carousel_Testimonials" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <p class="lead">The carousel component is generally not compliant with accessibility standards
+                . If you need to be compliant, please consider other options for presenting your content.</p>
+              <span>Mohamed Bauomy</span>
+            </div>
+            <div class="item">
+              <p class="lead">The carousel component is generally not compliant with accessibility standards
+                . If you need to be compliant, please consider other options for presenting your content.</p>
+              <span>Mostafa Ali</span>
+            </div>
+            <div class="item">
+              <p class="lead">The carousel component is generally not compliant with accessibility standards
+                . If you need to be compliant, please consider other options for presenting your content.</p>
+              <span>Bill Gets</span>
+            </div>
+            <div class="item">
+              <p class="lead">The carousel component is generally not compliant with accessibility standards
+                . If you need to be compliant, please consider other options for presenting your content.</p>
+              <span>Mohamed Ahmed</span>
+            </div>
+          </div>
+          <ol class="carousel-indicators">
+            <li data-target="#carousel_Testimonials" data-slide-to="0" class="active">
+                <img src="image/a.jpg" alt="Bauomy">
+            </li>
+            <li data-target="#carousel_Testimonials" data-slide-to="1">
+                <img src="image/b.jpg" alt="Mostafa">
+            </li>
+            <li data-target="#carousel_Testimonials" data-slide-to="2">
+                <img src="image/c.jpg" alt="Bell">
+            </li>
+            <li data-target="#carousel_Testimonials" data-slide-to="3">
+            <img src="image/d.jpg" alt="Michil"></li>
+          </ol>
+        
+          <!-- Controls -->
+        </div>
+        </div>
+        <!-- End Testimonials Carousel -->
+        </section>
+        <!-- End Testimonials Section -->
+        <!-- Start Price Table Section -->
+        <section class="price_table text-center">
+            <div class="container">
+                <h1>Our Amazing Prices</h1>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12 ">
+                        <div class="price_box">
+                            <h2 class="text-primary">Hosting</h2>
+                            <p class="center-block">$40</p>
+                            <ul class="list-unstyled">
+                                <li>Space: 30GB</li>
+                                <li>Emails: 20</li>
+                                <li>IPs: 2 IP</li>
+                                <li>Databases: 10</li>
+                                <li>FTB Accounts: 5</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 ">
+                        <div class="price_box">
+                            <h2 class="text-success">VPS</h2>
+                            <p class="center-block">$60</p>
+                            <ul class="list-unstyled">
+                                <li>Space: 30GB</li>
+                                <li>Emails: 20</li>
+                                <li>IPs: 2 IP</li>
+                                <li>Databases: 10</li>
+                                <li>FTB Accounts: 5</li>
+                            </ul>
+                            <a href="#" class="btn btn-success">Order Now</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 ">
+                        <div class="price_box">
+                            <h2 class="text-info">Dedicated</h2>
+                            <p class="center-block">$80</p>
+                            <ul class="list-unstyled">
+                                <li>Space: 30GB</li>
+                                <li>Emails: 20</li>
+                                <li>IPs: 2 IP</li>
+                                <li>Databases: 10</li>
+                                <li>FTB Accounts: 5</li>
+                            </ul>
+                            <a href="#" class="btn btn-info">Order Now</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 ">
+                        <div class="price_box">
+                            <h2 class="text-danger">Cloud</h2>
+                            <p class="center-block">$100</p>
+                            <ul class="list-unstyled">
+                                <li>Space: 30GB</li>
+                                <li>Emails: 20</li>
+                                <li>IPs: 2 IP</li>
+                                <li>Databases: 10</li>
+                                <li>FTB Accounts: 5</li>
+                            </ul>
+                            <a href="#" class="btn btn-danger">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Price Table Section -->
+        <!-- Start Our Team Section -->
+        <section class="our_team text-center">
+            <div class="team">
+                <div class="container">
+                    <h1>Meet Our Awesome Team</h1>
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="person">
+                                <img class="img-circle" src="image/t1.jpg" alt="No Comment">
+                                <h3>Billa woja</h3>
+                                <p>This is artist amirican and owner of filmy company</p>
+                                <i class="fa fa-google-plus-square fa-lg fa-spin"></i>
+                                <i class="fa fa-facebook-square fa-lg"></i>
+                                <i class="fa fa-twitter-square fa-lg"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="person">
+                                <img class="img-circle" src="image/t2.jpg" alt="No Comment">
+                                <h3>Billa woja</h3>
+                                <p>This is artist amirican and owner of filmy company</p>
+                                <i class="fa fa-google-plus-square fa-lg fa-spin"></i>
+                                <i class="fa fa-facebook-square fa-lg"></i>
+                                <i class="fa fa-twitter-square fa-lg"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="person">
+                                <img class="img-circle" src="image/t3.jpg" alt="No Comment">
+                                <h3>Billa woja</h3>
+                                <p>This is artist amirican and owner of filmy company</p>
+                                <i class="fa fa-google-plus-square fa-lg fa-spin"></i>
+                                <i class="fa fa-facebook-square fa-lg"></i>
+                                <i class="fa fa-twitter-square fa-lg"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="person">
+                                <img class="img-circle" src="image/t4.jpg" alt="No Comment">
+                                <h3>Billa woja</h3>
+                                <p>This is artist amirican and owner of filmy company</p>
+                                <i class="fa fa-google-plus-square fa-lg fa-spin"></i>
+                                <i class="fa fa-facebook-square fa-lg"></i>
+                                <i class="fa fa-twitter-square fa-lg"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+        <!-- End Our Team Section -->
+        <!-- Start Subscribe Section -->
+        <section class="subscribe text-center">
+            <div class="container">
+                <h1>Keep In Touch</h1>
+                <p class="lead">Sign Up For Newsletter, Don't Worry About Spam We Hate It Too.</p>
+                <form class="form-inline">
+                    <input class="form-control input-lg" type="text" placeholder="Write Your E-mail">
+                    <button class="btn btn-danger btn-lg"><i class="fa fa-edit"></i> Subscribe</button>
+                </form>
+            </div>
+        </section>
+        <!-- End Subscribe Section -->
+        <!-- Start stats Section -->
+        <section class="statistics text-center">
+            <div class="data">
+                <div class="container">
+                    <h1>Our Main statistics</h1>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="stats">
+                                <i class="fa fa-users fa-5x"></i>
+                                <p>9,500</p>
+                                <span>Satisfied Users</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="stats">
+                                <i class="fa fa-comments fa-5x"></i>
+                                <p>15,412</p>
+                                <span>Posted Comments</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="stats">
+                                <i class="fa fa-suitcase fa-5x"></i>
+                                <p>3,200</p>
+                                <span>Projects Done</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="stats">
+                                <i class="fa fa-support fa-5x"></i>
+                                <p>1,200</p>
+                                <span>Tickets Archieved</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End stats Section -->
+        <!-- Start Our Skills Section -->
+        <section class="our_skills">
+            <div class="container">
+                <h1 class="text-center">Our Skills</h1>
+                <div class="row">
+                    <!-- Start Progress Skills -->
+                    <div class="col-md-5">
+                        <div class="skills_progress">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                    HTML5/CSS3
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                    PHP/MySQL
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                                    Javascript/JQuery
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                    Wordpress
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Progress Skills -->
+                    <!-- Start Team Info -->
+                    <div class="col-md-6 col-md-offset-1">
+                        <div class="skills_info">
+                            <h3>About The Team</h3>
+                            <p class="lead">We Are Specialised Designing And Programming Team We Are Specialised Designing And Programming Team We Are Specialised Designing And Programming Team</p>
+                            <button type="button" class="btn btn-primary">Talk With Professional</button>
+                        </div>
+                        
+                    </div>
+                    <!-- End Team Info -->
+                </div>
+            </div>
+        </section>
+        <!-- End Our Skills Section -->
+        <!--Start Contact Us Section -->
+        <section class="contact_us text-center">
+            <div class="fields">
+                <div class="container">
+                    <div class="row">
+                        <i class="fa fa-headphones fa-5x fa-spin"></i>
+                        <h1>Tell Us What You Feel</h1>
+                        <p class="lead">Feel Free To Contact Us Anytime</p>
+                        <!-- Start Contact Form -->
+                        <form role="form">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" placeholder="Username">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" placeholder="E-mail">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" placeholder="Cell Phone">
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control input-lg" placeholder="Your Message"></textarea>
+                                </div>
+                                <button type="button" class="btn btn-danger btn-lg btn-block">Contact Us</button>
+                            </div>
+                        </form>
+                        <!-- End Contact Form -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Contact Us Section -->
+        <!--Start Our Client Section -->
+        <section class="our_client">
+            <div class="container">
+                <div class="row">
+                    <ul class="list-unstyled">
+                        <li class="col-md-2 col-xs-4">
+                            <img class="img-responsive center-block" src="image/client1.jpg" alt="">
+                        </li>
+                        <li class="col-md-2 col-xs-4">
+                            <img class="img-responsive center-block" src="image/client2.jpg" alt="">
+                        </li>
+                        <li class="col-md-2 col-xs-4">
+                            <img class="img-responsive center-block" src="image/client3.jpg" alt="">
+                        </li>
+                        <li class="col-md-2 col-xs-4">
+                            <img class="img-responsive center-block" src="image/client4.jpg" alt="">
+                        </li>
+                        <li class="col-md-2 col-xs-4">
+                            <img class="img-responsive center-block" src="image/client5.jpg" alt="">
+                        </li>
+                        <li class="col-md-2 col-xs-4">
+                            <img class="img-responsive center-block" src="image/client6.jpg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--End Our Client Section -->
+        <!--Start Ultimate Footer Section -->
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <h3>Sitemap</h3>
+                        <ul class="list-unstyled three-columns">
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Company</li>
+                            <li>Code</li>
+                            <li>Design</li>
+                            <li>Hosting</li>
+                            <li>Solutions</li>
+                            <li>Contact</li>
+                            <li>Sitemap</li>
+                        </ul>
+                        <ul class="list-unstyled social-list">
+                            <li><img src="image/icon/a.png" alt="email"></li>
+                            <li><img src="image/icon/b.png" alt="Google+"></li>
+                            <li><img src="image/icon/c.png" alt="pinterest"></li>
+                            <li><img src="image/icon/d.png" alt="RSS"></li>
+                            <li><img src="image/icon/e.png" alt="Facebook"></li>
+                            <li><img src="image/icon/f.png" alt="Twitter"></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h3>Latest Articles</h3>
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img class="media-object" src="image/articles/a.png" alt="image 1">
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">Programming</h4>
+                                This Is Some Text About Programming Describe The Media Of Bootstrap 3.2.0
+                            </div>
+                        </div>
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img class="media-object" src="image/articles/b.png" alt="image 1">
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">Coding</h4>
+                                This Is Some Text About Programming Describe The Media Of Bootstrap 3.2.0
+                            </div>
+                        </div>
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img class="media-object" src="image/articles/c.png" alt="image 1">
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">Web Design</h4>
+                                This Is Some Text About Programming Describe The Media Of Bootstrap 3.2.0
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h3>Our Awesome Work</h3>
+                        <div class="work">
+                            <img class="img-thumbnail" src="image/work/a.jpg" alt="">
+                            <img class="img-thumbnail" src="image/work/b.jpg" alt="">
+                            <img class="img-thumbnail" src="image/work/c.jpg" alt="">
+                            <img class="img-thumbnail" src="image/work/d.jpg" alt="">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="copyright text-center">
+                Copyright &copy; 2017 <span>Bauomy</span>.Inc
+            </div>
+        </section>
+        <!--End Ultimate Footer Section -->
+        <!-- Start Loading Section -->
+        <section class="loading-overlay">
+            
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </section>
+        <!-- End Loading Section -->
+
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/plugin.js"></script>
+    </body>
+</html>
